@@ -28,7 +28,7 @@ let weekdayname= days[parseInt(weekday)];
 let fname = fnames[parseInt(weekday)]
 let mname = mnames[parseInt(weekday)];
 console.log(weekdayname)
-if (sex = "Y") {
+if (sex == "Y") {
     var akanname= fname;
 } else {
     var akanname= mname
