@@ -1,10 +1,16 @@
 let text = "";
 
 function getWeekday (year,month,day,sex){
- 		const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-
+    let input=document.getElementById("birthday",value)
+    let year=input.getFullYear()
+    let month=input.getMonth()
+    let day=input.getdate()
+    let sex=document.getElementById("sex",value)
+    
+ 	const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const fnames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
     const mnames = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+
 let year2=year.toString()
 let month2 =  month-1
 let cc=year2.slice(0,2)

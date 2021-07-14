@@ -6,66 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--Added by Lyndsey-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!--Added by Lyndsey-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap"
-    rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
 
 <body>
-    <div class="container rounded">
+
+    <!--Main Navigation-->
+
+    < <div class="container rounded">
         <div class="jumbotron">
             <h2>Lyndsey's Akan birthday calculator</h2>
         </div>
     </div>
-    <div class="container rounded p-3">
-        <div class="row">
-            <div class="col">
-                <form action="/action_page.php">
+    <div class="container row-md-3">
+        <h2>Lyndsey's Akan birthday calculator</h2>
+    </div>
+    <div class="container row-md-3">
+
+        <div class="container rounded p-3">
+            <div class="row col-sm-3">
+                <div class="col">
+                    <form action="/action_page.php">
+                        <span class="float-left">
+                            <h3>What is your birthday?</h3>
+                            <label for="birthday">Birthday:</label>
+                            <input type="date" id="birthday" name="birthday">
+                          
+                        </span>
+                    </form>
+
+                </div>
+                <div class="col col-sm-3">
                     <span class="float-left">
-                        <h3>What is your birthday?</h3>
-                        <label for="birthday">Birthday:</label>
-                        <input type="date" id="birthday" name="birthday">
-                        <input type="submit">
+                        <h3>What is your sex</h3>
+
+                        <select id="sex" name="sex" id=sex>
+                            <option value="Y">Female</option>
+                            <option value="N">Male</option>
+
+                        </select>
                     </span>
-                </form>
 
+                </div>
             </div>
-            <div class="col">
-                <span class="float-left">
-                    <h3>What is your sex</h3>
-
-                    <select id="sex" name="sex">
-                        <option value="Y">Female</option>
-                        <option value="N">Male</option>
-
+            <div class="row">
+                <div class="col text-center">
+                    <button type="button" class="btn btn-outline-secondary padding-lg " onclick="getWeekday()">Submit</button>
                     </select>
-                </span>
+                </div>
 
             </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <button type="button" class="btn btn-outline-secondary padding-lg ">Submit</button>
-                </select>
-            </div>
-
         </div>
     </div>
     </div>
@@ -75,6 +85,7 @@
     <p><strong>Note:</strong> type="date" is not supported in Safari or Internet Explorer 11 (or earlier).</p>
     <br>
 
+    <script src="jss/navigation.js"></script>
 </body>
 
 </html>
