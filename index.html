@@ -5,22 +5,37 @@
     <meta charset="UTF-8">
     <title>My Web Page</title>
     <script src="jss/navigation.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <div class="row styling">
+            <h3><strong>Bootstrap Datepicker</strong></h3><br>
+            <div class='col-sm-offset-4 col-sm-4'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control input-lg" />
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                    </div>
+                </div>
+                <p class="help-block"><strong>Date format:</strong> yyyy-mm-dd</p>
+            </div>
+        </div><br>
+    </div>
 
-    <h2>What is your Akan name?</h2>
+    <button type="button" onclick="bday_array()">Click Me!</button>
 
-    <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day
-        name' which corresponds to the day in the week they were born.</p>
-
-    <button type="button" onclick="bday_prompt()">Click Me!</button>
-
-    var number1 = parseInt(prompt("Enter a number:"));
-    var number2 = parseInt(prompt("Enter another number:"));
-    var result = add(number1, number2);
-    alert(result);
 </body>
 
 </html>
