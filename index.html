@@ -33,7 +33,7 @@
 
     <!--Main Navigation-->
 
-    < <div class="container rounded">
+    <div class="container rounded">
         <div class="jumbotron">
             <h2>Lyndsey's Akan birthday calculator</h2>
         </div>
@@ -41,50 +41,33 @@
     <div class="container row-md-3">
         <h2>Lyndsey's Akan birthday calculator</h2>
     </div>
-    <div class="container row-md-3">
 
-        <div class="container rounded p-3">
-            <div class="row col-sm-3">
-                <div class="col">
-                    <form action="/action_page.php">
-                        <span class="float-left">
-                            <h3>What is your birthday?</h3>
-                            <label for="birthday">Birthday:</label>
-                            <input type="date" id="birthday" name="birthday">
-                          
-                        </span>
-                    </form>
-
-                </div>
-                <div class="col col-sm-3">
-                    <span class="float-left">
-                        <h3>What is your sex</h3>
-
-                        <select id="sex" name="sex" id=sex>
-                            <option value="Y">Female</option>
-                            <option value="N">Male</option>
-
-                        </select>
-                    </span>
-
-                </div>
+    <div class="container-fluid">
+        <h2>Calculate your BMI below</h2>
+        <form> Submit
+            <div class="form-group">
+                <h3>What is your birthday?</h3>
+                <label for="birthday">Birthday:</label>
+                <input type="date" class="form-control" id="birthday">
             </div>
-            <div class="row">
-                <div class="col text-center">
-                    <button type="button" class="btn btn-outline-secondary padding-lg " onclick="getWeekday()">Submit</button>
-                    </select>
-                </div>
-
+            <div class="form-group">
+                <h3>What is your sex</h3>
+                <label for="sex">Sex</label>
+                <select name="sex" id="sex">
+                    <option value="Y">Female</option>
+                    <option value="N">Male</option>
+                </select>
             </div>
-        </div>
+
+            <div class="form-group">
+                <label for="height">Height:</label>
+                <input type="number" class="form-control" placeholder="Enter height" id="height">
+            </div>
+
+            <button type="button" id="button" class="btn btn-primary" onclick="onSubmit()">Press here</button>
+        </form>
+
     </div>
-    </div>
-    <p id="demo"></p>
-
-
-    <p><strong>Note:</strong> type="date" is not supported in Safari or Internet Explorer 11 (or earlier).</p>
-    <br>
-
     <script src="jss/navigation.js"></script>
 </body>
 

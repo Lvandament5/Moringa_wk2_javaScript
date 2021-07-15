@@ -31,35 +31,3 @@ h3 {
   background-size: cover;
  }
 
-.btn-outline-secondary {
-  color: #F5F749;
-  border-color: #F5F749;
-  background-color: #23395B;
-}
-
-.btn-outline-secondary:hover {
-  color: #23395B;
-  background-color: #F5F749;
-  border-color: #F5F749;
-}
-
-.btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
-}
-
-.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #F5F749;
-  background-color: #23395B;
-}
-
-.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
-.show > .btn-outline-secondary.dropdown-toggle {
-  color: #23395B;
-  background-color: #F5F749;
-  border-color: #F5F749;
-}
-
-.btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
-}
