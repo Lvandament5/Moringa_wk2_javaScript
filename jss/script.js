@@ -10,8 +10,8 @@ function handleSubmit() {
     const birthday3 = birthday2.split("-");
     console.log(birthday3)
     let year = birthday3[0]
-    let month = birthday3[1]
-    let day = birthday3[2]
+    let month = parseInt(birthday3[1])
+    let day = parseInt(birthday3[2])
 
     console.log(year)
     console.log(month)
