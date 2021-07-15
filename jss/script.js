@@ -53,7 +53,7 @@ function getWeekday(year, month, day, sex) {
         var akanname = mname
     }
     console.log(akanname)
-    text += "You were born on " + weekdayname + " and your Akan name is " + akanname + "!"
-    return answer
+    document.getElementById("output").innerHTML = "You were born on " + weekdayname +" and your Akan name is "+ akanname + "!"
+   
 }
 
