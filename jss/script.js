@@ -33,14 +33,10 @@ function getWeekday(year, month, day, sex) {
     let cc = year.slice(0, 2)
     let yy = year.slice(2, 4)
 
-    let weekday = Math.round((
-        (cc / 4) - 2 * cc - 1) +
-        (5 * yy / 4) +
-        (26 * (month2 + 1) / 10) +
-        day
-    ) % 7)
+    let weekday = Math.round(
+        (((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (month2 + 1) / 10)) + day) % 7)
 
-        console.log(cc)
+    console.log(cc)
     console.log(yy)
     console.log(day)
     console.log(month2)
