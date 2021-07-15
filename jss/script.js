@@ -1,7 +1,10 @@
 
-
 function onSubmit() {
-    
+    console.log("Function has been hit!!!");
+
+}
+
+function onSubmit2() {
     console.log("Function has been hit!!!");
     let birthday2 = (document.getElementById("birthday").value);
     console.log(birthday2)
