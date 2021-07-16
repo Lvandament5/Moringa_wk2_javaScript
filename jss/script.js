@@ -12,10 +12,14 @@ function handleSubmit() {
     let year = birthday3[0]
     let month = parseInt(birthday3[1])
     let day = parseInt(birthday3[2])
-
+    
     console.log(year)
     console.log(month)
     console.log(day)
+    if (month >= 1 && month <= 09) {
+    } else {
+        document.getElementById("checkm").innerHTML = "Enter valid date"
+    }
     let answer = getWeekday(year, month, day, sex)
 
 }
@@ -53,7 +57,7 @@ function getWeekday(year, month, day, sex) {
         var akanname = mname
     }
     console.log(akanname)
-    document.getElementById("output").innerHTML = "You were born on " + weekdayname +" and your Akan name is "+ akanname + "!"
-   
+    document.getElementById("output").innerHTML = "You were born on " + weekdayname + " and your Akan name is " + akanname + "!"
+
 }
 
