@@ -21,7 +21,7 @@ function handleSubmit() {
         alert("Enter a valid date");
         return
     }
-    if (day >= 1 && day <= 10) {
+    if (day >= 1 && day <= 31) {
     } else {
         alert("Enter a valid date");
         return

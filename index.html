@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akan name generator</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -27,40 +27,80 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
+
 </head>
 
 <body>
+    <a class="navbar-brand logo-text page-scroll" href="index.html">LyndseyVandament</a>
 
-    <div class="container rounded">
-        <div class="jumbotron">
-            <h2>Lyndsey's Akan birthday calculator</h2>
+
+    <div class="header">
+        <div class="container rounded">
+            <div class="jumbotron">
+                <h2>Lyndsey's Akan birthday calculator</h2>
+            </div>
         </div>
-    </div>
 
 
-    <div class="container-fluid">
-
-        <form>
-            <div class="form-group">
-                <h3>What is your birthday?</h3>
-                <label for="birthday">Birthday:</label>
-                <input type="date" class="form-control" id="birthday">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1 class="h1-large"> 'The Akan people of Ghana frequently name their children after the day
+                                of the week they were born and the order in which they were born. These "day names" have
+                                further meanings concerning the soul and character of the person.'
+                            </h1>
+                            <h6>Source: wikipedia.org</h6>
+                            <h1 class="h1-large">
+                                <a href="https://en.wikipedia.org/wiki/Akan_names"> <em>learn more!</em></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container mountain">
+                            <img class="img-fluid mountain" src="images/yoel-winkler-zCAh6tOWFt8-unsplash.jpg"
+                                alt="alternative">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <h3>What is your sex</h3>
-                <label for="sex">Sex</label>
-                <select name="sex" id="sex">
-                    <option value="Y">Female</option>
-                    <option value="N">Male</option>
-                </select>
-            </div>
+            <div class="container-fluid" style="border:5px solid #cecece;">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <form>
+                            <div class="form-group">
+                                <h3>What is your birthday?</h3>
+                                <label for="birthday">Birthday:</label>
+                                <input type="date" class="form-control" id="birthday">
+                            </div>
+                            <div class="form-group">
+                                <h3>What is your sex</h3>
+                                <label for="sex">Sex</label>
+                                <select name="sex" id="sex">
+                                    <option value="Y">Female</option>
+                                    <option value="N">Male</option>
+                                </select>
+                            </div>
 
-            <button type="button" id="button" class="btn btn-primary" onclick="handleSubmit()">get your Akan
-                name!</button>
-        </form>
-        <p id="check"></p>
-        <p id="output"></p>
-    </div>
-    <script type="text/javascript" src="jss/script.js"></script>
+                            <button type="button" id="button" class="btn btn-primary" onclick="handleSubmit()">get your
+                                Akan
+                                name!</button>
+                        </form>
+                        <br>
+                    </div>
+                    <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="vertical-center">
+                            <h2 id="output"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="jss/script.js"></script>
 </body>
+</div>
+
 </html>

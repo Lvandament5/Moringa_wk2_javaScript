@@ -4,7 +4,13 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
+img {
+  border: 5px solid #555;
+}
+h1 {
+font: 600 2.5rem/3.25rem 
+font-weight: bold;
+}
 h2 {
   color: #F5F749;
   font-family: "Playfair Display", serif;
@@ -31,3 +37,18 @@ h3 {
   background-size: cover;
  }
 
+
+.header {
+	position: relative;
+	overflow: hidden;
+	padding-top: 6rem;
+	padding-bottom: 17rem;
+	background: #d16666;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
