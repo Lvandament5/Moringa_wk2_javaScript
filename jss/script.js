@@ -16,9 +16,20 @@ function handleSubmit() {
     console.log(year)
     console.log(month)
     console.log(day)
-    if (month >= 1 && month <= 09) {
+    if (month >= 1 && month <= 12) {
     } else {
-        document.getElementById("checkm").innerHTML = "Enter valid date"
+        alert("Enter a valid date");
+        return
+    }
+    if (day >= 1 && day <= 10) {
+    } else {
+        alert("Enter a valid date");
+        return
+    }
+    if (year >= 1900 && year <= 2021) {
+    } else {
+        alert("Enter a valid date");
+        return
     }
     let answer = getWeekday(year, month, day, sex)
 
