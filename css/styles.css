@@ -63,3 +63,18 @@ button {
 	transform-style: preserve-3d;
 
 }
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.copyright .p-small {
+	color: #fbeec1;
+	text-align: center;
+}
+
+.copyright a {
+	color: #92989c;
+}
+
