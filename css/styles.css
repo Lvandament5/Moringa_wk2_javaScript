@@ -1,29 +1,22 @@
 body {
-  color: #23395B;
-  font-family: "Source sans pro", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-}
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+ }
+
+
 img {
-  border: 5px solid #555;
+  border: 5px solid #daad86;
 }
 h1 {
 font: 600 2.5rem/3.25rem 
 font-weight: bold;
 }
-h2 {
-  color: #F5F749;
-  font-family: "Playfair Display", serif;
-  font-size: 40px;
-  font-weight: bold;
-}
 
-h3 {
-  color: #F5F749;
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
-  font-weight: bold;
-}
 .jumbotron{
   position: relative;
   background: #508484;
@@ -43,7 +36,7 @@ h3 {
 	overflow: hidden;
 	padding-top: 6rem;
 	padding-bottom: 17rem;
-	background: #d16666;
+	background: #659dbd;
 }
 .vertical-center {
   margin: 0;
@@ -51,4 +44,13 @@ h3 {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+
+.navbar {
+	background-color: #daad86;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0.875rem;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
