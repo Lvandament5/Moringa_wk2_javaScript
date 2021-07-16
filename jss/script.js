@@ -12,7 +12,7 @@ function handleSubmit() {
     let year = birthday3[0]
     let month = parseInt(birthday3[1])
     let day = parseInt(birthday3[2])
-    
+
     console.log(year)
     console.log(month)
     console.log(day)
