@@ -17,20 +17,6 @@ font: 600 2.5rem/3.25rem
 font-weight: bold;
 }
 
-.jumbotron{
-  position: relative;
-  background: #508484;
-  text-align:center;
-  
-}
-.jumbotron {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
- }
-
-
 .header {
 	position: relative;
 	overflow: hidden;
@@ -46,11 +32,34 @@ font-weight: bold;
   transform: translateY(-50%);
 }
 
-
 .navbar {
 	background-color: #daad86;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+}
+
+
+button {
+	display: block;
+	position: relative;
+	margin: 0.5em 0;
+	padding: .8em 2.2em;
+	cursor: pointer;
+
+	background: #FFFFFF;
+	border: none;
+	border-radius: .4em;
+
+  color:black;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.04em;
+
+	perspective: 500px;
+	transform-style: preserve-3d;
+
 }
